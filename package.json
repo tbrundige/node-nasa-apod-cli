@@ -1,0 +1,18 @@
+{
+  "name": "nasa-apod-cli",
+  "version": "1.0.0",
+  "description": "A node app to get and display the NASA APOD in the terminal.",
+  "main": "./bin/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tjb",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "nasa-apod": "./bin/app.js"
+  },
+  "dependencies": {
+    "asciify-image": "^0.1.8",
+    "axios": "^0.26.1"
+  }
+}

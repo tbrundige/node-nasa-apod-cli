@@ -11,7 +11,7 @@ const apiKey = process.env.API_KEY;
 const url = baseURL + apiKey;
 
 const currentTerminalWidth = process.stdout.columns;
-const currentTerminalHeight = process.stdout.rows;
+const currentTerminalHeight = process.stdout.rows - 1;
 
 const options = {
     fit: 'box',

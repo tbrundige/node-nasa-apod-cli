@@ -1,4 +1,4 @@
-# nasa-apod-cli
+# node-nasa-apod-cli
 A node app to display NASA Astronomy Picture of the Day in the terminal.
 
 ## Setup

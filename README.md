@@ -1,6 +1,8 @@
 # node-nasa-apod-cli
 A node app to display NASA Astronomy Picture of the Day in the terminal.
 
+![alt text](https://github.com/tbrundige/node-nasa-apod-cli/blob/dev/assets/nasa-apod.png?raw=true)
+
 ## Setup
 1. Get API key here - https://api.nasa.gov/
 2. Add to .env file `API_KEY="<your api key>"`

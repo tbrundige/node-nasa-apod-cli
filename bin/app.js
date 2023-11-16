@@ -7,7 +7,7 @@ dotenv.config();
 
 
 const baseURL = 'https://api.nasa.gov/planetary/apod?api_key=';
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.NASA_API_KEY;
 const url = baseURL + apiKey;
 
 const currentTerminalWidth = process.stdout.columns;

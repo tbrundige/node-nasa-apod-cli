@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const asciify = require('asciify-image');
-const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config();
 
@@ -21,8 +20,9 @@ const options = {
 };
 
 const GetAPOD = async (asciiOptions, url) => {
-    let response = await axios.get(url);
-    let imageURL = response.data.url;
+    const response = await fetch(url);
+    const body = await response.json()
+    const imageURL = body.url;
 
     asciify(imageURL, asciiOptions, (err, asciifiedImage) => {
         if (err) throw err;

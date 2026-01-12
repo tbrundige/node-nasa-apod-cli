@@ -12,9 +12,9 @@
     "nasa-apod": "./bin/app.js"
   },
   "dependencies": {
-    "asciify-image": "^0.1.8"
+    "asciify-image": "^0.1.1"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^17.2.3"
   }
 }
